@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    margin-top: 55px;
+    margin-bottom: 60px;
+}
+/*头部*/
+header{
+    width: 100%;
+    height: 55px;
+    background: #4cae4c;
+}
+header a{
+    color: #fff;
+}
+header a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+header .row{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+header .icon{
+    font-size: inherit;
+}
+header .left{
+    margin-right: 15px;
+}
+header .col-xs-3{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header .col-xs-6{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header .form-control{
+    border-radius: 50px;
+}
+header .form-group {
+    margin-bottom: 0;
+}
+/*滑动导航*/
+.banner-nav table{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.banner-nav .swiper-wrapper a{
+    color: #000;
+    text-decoration: none;
+}
+.banner-nav .swiper-slide .icon{
+    font-size: 2em;
+    color: #d58512;
+}
+/*表格*/
+.table-bordered {
+    text-align: center;
+    margin-bottom: 0;
+    border: 1px solid #eee;
+}
+.table-bordered td{
+    padding: 0;
+}
+.table-bordered a{
+    color: #000;
+    text-decoration: none;
+}
+.table-bordered .icon{
+    margin-right: 10px;
+    color: #761c19;
+}
+
+/*轮播图*/
+.banner .swiper-container{
+    width: 100%;
+    height: 150px;
+}
+.banner .swiper-container .swiper-slide img{
+    width: 100%;
+    height: 150px;
+}
+/*小标题1号*/
+.little-tit-a{
+    width: 100%;
+    height: 40px;
+}
+.little-tit-a .banner-c{
+    width: 100%;
+    height: 40px;
+}
+.banner-c .swiper-slide {
+    margin-left: 15px;
+}
+.little-tit-a .col-xs-4{
+    text-align: center;
+}
+.little-tit-a a{
+    color: #000;
+    text-decoration: none;
+}
+.little-tit-a .icon {
+    color: #761c19;
+}
+/*9按钮*/
+.nine-btn{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nine-btn .row{
+    margin-bottom: 10px;
+}
+.nine-btn .col-xs-4{
+    text-align: center;
+}
+.nine-btn button{
+    width: 100%;
+}
+.nine-btn .btn-default {
+    color: #333;
+    background-color: #eee;
+    border-color: #ccc;
+}
+/*特卖活动*/
+.sale {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sale .row{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+    background: #fff;
+}
+.sale .col-xs-3{
+    padding: 0;
+}
+.sale .col-xs-6{
+    padding: 0;
+}
+.sale a{
+    color: #000;
+    text-decoration: none;
+}
+/*hr系列*/
+.fenge{
+    color: #eee;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 10px solid;
+}
+/**/
+.event .table-bordered{
+    width: 100%;
+}
+.event td{
+    padding: 8px;
+}
+.event span{
+    font-size: 1.2em;
+    margin-left: 15px;
+}
+/*中间导航*/
+.navbar-center {
+    width: 100%;
+}
+.nav-tabs a{
+    color: #000;
+}
+.nav-tabs li {
+    width: 25%;
+    text-align: center;
+}
+
+/*内容*/
+.content {
+    width: 100%;
+}
+.content img{
+    width: 100%;
+    height: 150px;
+}
+.content h3{
+    margin: 0;
+}
+/**/
+/*最下导航*/
+footer{
+    width: 100%;
+    height: 60px;
+    background: #fff;
+}
+footer a{
+    color: #000;
+}
+footer a:hover{
+    color: #000;
+    text-decoration: none;
+}
+.down-nav{
+    width: 100%;
+}
+.down-nav div{
+    float: left;
+    width: 20%;
+    height: auto;
+    text-align: center;
+}
+.down-nav .icon{
+    font-size: 1.5em;
+}
+footer.navbar {
+    min-height: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+}
